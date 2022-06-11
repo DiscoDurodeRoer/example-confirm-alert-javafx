@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="214.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.EjemploAlertConfirmacionController">
+   <children>
+      <Button fx:id="btnPedirConf" layoutX="61.0" layoutY="59.0" mnemonicParsing="false" onAction="#pedirConfirmación" prefHeight="25.0" prefWidth="184.0" text="Pedir confirmación" />
+      <TextField fx:id="txtPedirConfi" editable="false" layoutX="61.0" layoutY="144.0" prefHeight="25.0" prefWidth="184.0" />
+      <Label layoutX="61.0" layoutY="117.0" text="Opción elegida" />
+   </children>
+</AnchorPane>
